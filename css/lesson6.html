@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LESSON 6</title>
+    <style>
+
+#theheading 
+{
+    background-color: red;
+    padding:20px;
+    font-size:20px;
+    color:white;
+}
+
+/* PHONE */
+ @media (max-width: 767px) {
+    #theheading 
+    {
+        height:100px;
+    }
+
+}
+
+  /* TABLET */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    #theheading 
+    {
+        height:150px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 992px)  
+{
+    #theheading 
+    {
+        height:300px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div id="theheading">
+        HELLO WORLD
+    </div>
+</body>
+</html>
